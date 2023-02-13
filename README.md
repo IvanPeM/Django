@@ -44,4 +44,31 @@ $ python3 manage.py runserver
 ```
 $ python3 manage.py startapp polls
 ```
+10. Cambiar views.py
+```
+$ cd polls
+$ nano views.py
+```
+Y escribimos lo siguiente
+```
+from django.http import HttpResponse
+
+def index(request):
+	return HttpResponse("Hello, world.")
+
+```
+11. Crear urls.py
+```
+$ touch urls.py
+```
+12. Escribir dentro de urls.py
+```
+from django.urls import path
+
+from . import views
+
+urlpatterns = [
+    path('', views.index, name='index'),
+]
+```
 

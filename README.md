@@ -23,3 +23,20 @@ $ python3
 >>> import django
 >>> print(django.get_version())
 ```
+5. Instalar django-admin
+```
+$ sudo apt install python3-django
+```
+6. Creando un proyecto
+```
+$ django-admin startproject mysite
+```
+7. Encender el proyecto
+```
+$ cd mysite
+$ python3 manage.py runserver
+```
+8. Entra en el navegador
+```
+127.0.0.1:8000
+```

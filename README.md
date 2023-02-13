@@ -16,4 +16,11 @@ $ python3 get-pip.py
 ```
 $ python3 -m pip install Django
 ```
+4. Comprobar si funciona Django
+```
+$ python3 -m django --version
+$ python3
+>>> import django
+>>> print(django.get_version())
+```
 

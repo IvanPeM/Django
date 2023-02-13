@@ -40,3 +40,8 @@ $ python3 manage.py runserver
 ```
 127.0.0.1:8000
 ```
+9. Poder crear la aplicación
+```
+$ python3 manage.py startapp polls
+```
+
